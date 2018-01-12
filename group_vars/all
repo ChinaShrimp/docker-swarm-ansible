@@ -1,0 +1,6 @@
+docker_edition: 'ce'
+docker_channel: 'stable'
+docker_version: '17.06.0'
+docker_install_docker_compose: True
+docker_compose_version: '1.14.0'
+docker_users: ['ubuntu']

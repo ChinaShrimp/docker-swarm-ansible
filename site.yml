@@ -1,0 +1,5 @@
+- name: install docker
+  hosts: swarm
+  become: True
+  roles:
+    - { role: nickjj.docker, tags: docker }
